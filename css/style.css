@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    max-width: 1440px;
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.imagem-fundo {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    max-width: 40rem;
+    margin: 2.5rem auto;
+    box-shadow: 0 2rem rgba(0, 0, 0, 0.045);
+}
+.imagem-topo {
+    max-width: 49rem;
+}
+.imagem-topo img {
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-conteudo {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+.descricao-conteudo {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+}
+.plano {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin: 3rem 0;
+}
+.esquerda {
+    display: flex;
+    align-items: center;
+}
+.nota-musical {
+    max-width: 3.5rem;
+}
+.tipo-preco-plano {
+    margin: 0 2rem;
+}
+.tipo-plano {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 0.4rem;
+}
+.preco {
+    font-size: 1.7rem;
+    color: #7280a7;
+    margin: 0;
+}
+.direita a {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1b1bf3;
+}
+.direita a:hover {
+    color: rgba(27, 27, 243, 0.698);
+    text-decoration: none;
+}
+.assinar-cancelar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.assinar {
+    border: none;
+    border-radius: 1rem;
+    background-color: #3829e0;
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 1rem 7rem;
+    margin: 2rem 0;
+}
+.assinar:hover {
+    cursor: pointer;
+    background-color: rgba(56, 41, 224, 0.698);
+}
+.cancelar {
+    border: none;
+    background-color: #ffffff;
+    color: #7280a7;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.cancelar:hover {
+    cursor: pointer;
+    color: #000000;
+}

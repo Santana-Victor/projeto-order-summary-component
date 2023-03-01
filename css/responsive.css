@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    .container {
+        margin: 2.5rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .plano {
+        padding: 0 2.5rem;
+    }
+}

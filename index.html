@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+
+<body>
+  <picture>
+    <source media="(max-width: 500px)" srcset="./imagens/pattern-background-mobile.svg"/>
+    <img class="imagem-fundo" src="./imagens/pattern-background-desktop.svg"/>
+  </picture>
+  <div class="container">
+    <div class="imagem-topo">
+      <img src="./imagens/illustration-hero.svg"/>
+    </div>
+    <div class="conteudo">
+      <h1 class="titulo-conteudo">Order Summary</h1>
+      <p class="descricao-conteudo">You can now listen to millions of songs,
+        audiobooks, and podcasts on any device anywhere you like!
+      </p>
+    </div>
+    <div class="plano">
+      <div class="esquerda">
+        <img src="./imagens/icon-music.svg" class="nota-musical"/>
+        <div class="tipo-preco-plano">
+          <h2 class="tipo-plano">Annual Plan</h2>
+          <p class="preco">$59.99/year</p>
+        </div>
+      </div>
+      <div class="direita">
+        <a href="#">Change</a>
+      </div>
+    </div>
+    <div class="assinar-cancelar">
+      <button class="assinar">Proceed to Payment</button>
+      <button class="cancelar">Cancel Order</button>
+    </div>
+  </div>
+</body>
+</html>
